@@ -267,7 +267,7 @@ use vars qw(@ISA @EXPORT @EXPORT_OK %EXPORT_TAGS $VERSION);
 use 5.6.0;
 
 use Exporter;
-$VERSION = 0.041;
+$VERSION = 0.05;
 @ISA = qw(Exporter);
 
 @EXPORT = qw(); # symbols to autoexport, will be filled later on

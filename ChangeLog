@@ -1,3 +1,8 @@
+2002-04-18  Stephan Heuel  <heuel@ipb.uni-bonn.de>
+
+	* GaussHelmert.pm: version 0.041 wasn't recognized by cpan, so I
+	try it with 0.05
+
 2002-04-17  Stephan Heuel  <heuel@ipb.uni-bonn.de>
 
 	* t/line_estimation.t: set the random seed so that tests are
@@ -19,3 +24,6 @@
 	as parameters.  I can get this from the size of the vectors in $y
 	and $b. Tested succesfully with Math::UncertainGeometry.
 
+0.02  Thu Sep 20 15:04:51 2001
+	- original version; created by h2xs 1.20 with options
+		-X -n Statistics::GaussHelmert
