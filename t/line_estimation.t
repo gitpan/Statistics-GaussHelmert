@@ -23,7 +23,7 @@ use Math::Random;
 # 1.) test if regular estimation works, this is the simpler case 
 
 # so that I know what to expect
-#random_set_seed_from_phrase("Ich möchte Transformationen schätzen.");
+random_set_seed_from_phrase("Ich möchte Transformationen schätzen.");
 
 my $meansigma0 =0;
 my $n = 100; # number of tests, theoretically it should be 100000 or
@@ -90,7 +90,7 @@ ok(($meansigma0 > 0.5 and
 
 #############################################################
 # 2.) test if an estimation with blocks works. This is not really
-# worth looking at if you just want to have a first glance of the sys
+# worth looking at if you just want to have a first glance of the system
 my $blockestim = new Statistics::GaussHelmertBlocks;
 $meansigma0 = 0;
 

@@ -1,5 +1,8 @@
 2002-04-17  Stephan Heuel  <heuel@ipb.uni-bonn.de>
 
+	* t/line_estimation.t: set the random seed so that tests are
+	reproducible (this was unfortunately commented)
+
 	* GaussHelmert.pm: version 0.04 is the release version, no
 	further changes applied
 
