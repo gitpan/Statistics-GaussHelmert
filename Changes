@@ -1,0 +1,9 @@
+Revision history for Perl extension Statistics::GaussHelmert.
+
+0.02  Thu Sep 20 15:04:51 2001
+	- original version; created by h2xs 1.20 with options
+		-X -n Statistics::GaussHelmert
+
+0.04  
+	- first public version
+
